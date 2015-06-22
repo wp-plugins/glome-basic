@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Glome plugin for Wordpress\n"
+"POT-Creation-Date: 2015-06-05 18:33+0200\n"
+"PO-Revision-Date: 2015-06-05 18:34+0200\n"
+"Last-Translator: Ferenc Székely <ferenc@glome.me>\n"
+"Language-Team: Glome Inc. <contact@glome.me>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/gnb_widget.php:13
+msgid "GNB widget description"
+msgstr "GNB widget handles communication with the Glome API via websockets."
+
+#: includes/key_widget.php:13
+msgid "Allow your visitors to login with Glome Key."
+msgstr "Allow your visitors to login with Glome Key."
+
+#: includes/key_widget.php:66 includes/key_widget.php:73
+msgid "Key Widget Title"
+msgstr "Key Widget Title"
+
+#: includes/key_widget.php:78 includes/one_time_login_widget.php:77
+#: includes/scanner_widget.php:67 includes/show_qr_widget.php:65
+msgid "Tick to hide the widget for logged-in users"
+msgstr "Tick to hide key widget for logged-in users."
+
+#: includes/one_time_login_widget.php:13
+msgid "Allow your visitors to login with Glome."
+msgstr "Allow your visitors to login with Glome."
+
+#: includes/one_time_login_widget.php:65 includes/one_time_login_widget.php:72
+msgid "One-time Login Widget Title"
+msgstr "One-time Login Widget Title"
+
+#: includes/scanner_widget.php:13
+msgid "Allow your users to pair up using QR code and a scanner."
+msgstr "Allow your users to pair up using QR code and a scanner."
+
+#: includes/scanner_widget.php:54 includes/scanner_widget.php:62
+msgid "Scanner Widget Title"
+msgstr "Scanner Widget Title"
+
+#: includes/scanner_widget.php:71
+msgid "Tick to hide the widget for visitors"
+msgstr "Tick to hide key widget for visitors."
+
+#: includes/show_qr_widget.php:13
+msgid "Show a QR code for pairing."
+msgstr "Show a QR code for pairing."
+
+#: includes/show_qr_widget.php:53 includes/show_qr_widget.php:60
+msgid "Show QR Widget Title"
+msgstr "Show QR Widget Title"
+
+#: templates/glome_api_feedback.php:6
+msgid "api pairing failed"
+msgstr "Pairing failed."
+
+#: templates/glome_api_feedback.php:15
+msgid "api pairing ok"
+msgstr "Pairing succeeded."
+
+#: templates/glome_profile.php:1
+msgid "Glome Profile"
+msgstr "Glome Profile"
+
+#: templates/glome_profile.php:3
+msgid "Your Glome ID"
+msgstr "Your Glome ID"
+
+#: templates/key_login.php:4
+msgid "pairing code title"
+msgstr "Pairing code"
+
+#: templates/key_login.php:5
+msgid "pairing code valid until"
+msgstr "Valid until"
+
+#: templates/key_login.php:7 templates/show_qr.php:9
+msgid "share qr hint"
+msgstr "Swipe or double click the code."
+
+#: templates/one_time_login.php:3
+msgid "one-time access"
+msgstr "One-Time Access"
+
+#: templates/paired_devices.php:14
+msgid "Paired devices title"
+msgstr "Your paired devices"
+
+#: templates/paired_devices.php:17
+msgid "Paired devices intro"
+msgstr ""
+"Listed below are the Glome ID(s) of other devices that are paired to this "
+"account. You can remove the ones that you have a direct connection to. Other "
+"devices are linked via some of your other devices. Those you can remove if "
+"you access the site with those devices."
+
+#: templates/paired_devices.php:21
+msgid "Paired devices none"
+msgstr "You currently do not have any paired devices."
+
+#: templates/paired_devices.php:32
+msgid "Pair Info Glome ID"
+msgstr "Glome ID"
+
+#: templates/paired_devices.php:38
+msgid "Unpair"
+msgstr "Unpair"
+
+#: templates/pairing.php:5 templates/show_qr.php:4
+msgid "share link title"
+msgstr "Pair with a link"
+
+#: templates/pairing.php:6
+msgid "share link itro"
+msgstr ""
+"You can pair up multiple devices to this account. Simply open this link on "
+"an other device. Yes, you can share the link with someone else too. There "
+"are no limits here!"
+
+#: templates/pairing.php:9 templates/pairing.php:19 templates/show_qr.php:6
+msgid "code expires at"
+msgstr "Code expires at"
+
+#: templates/pairing.php:15
+msgid "share qr title"
+msgstr "Pair with QR code"
+
+#: templates/pairing.php:16
+msgid "share qr intro"
+msgstr ""
+"You can also pair an other device by scanning this QR code. For this you "
+"need a suitable device that has a camera."
+
+#: templates/pairing.php:25
+msgid "scan code title"
+msgstr "Scan QR code"
+
+#: templates/pairing.php:27 templates/scanner.php:3
+msgid "no video scanner"
+msgstr ""
+"Unfortunately your browser does not support our code scanner. Please enter "
+"the pairing code manually."
+
+#: templates/pairing.php:30
+msgid "scan code intro"
+msgstr "You can pair up by scanning the QR code shown on an other device."
+
+#: templates/pairing.php:31 templates/scanner.php:6
+msgid "open camera"
+msgstr "Open camera"
+
+#: templates/pairing.php:32 templates/scanner.php:7
+msgid "close camera"
+msgstr "Close camera"
+
+#: templates/pairing.php:33 templates/scanner.php:8
+msgid "scan code"
+msgstr "Scan QR code"
+
+#: templates/pairing.php:35 templates/scanner.php:10
+msgid "video stream not available"
+msgstr "Video stream not available."
+
+#: templates/request_api_access.php:1
+msgid "Request API Access"
+msgstr "Activate Glome"
+
+#: templates/request_api_access.php:4
+msgid "API info 1"
+msgstr ""
+"By clicking the button below Glome will grant API credentials for your site. "
+"Your site will be able to use basic Glome features."
+
+#: templates/request_api_access.php:5
+msgid "API info 2"
+msgstr "Please find more information on Glome API plans at http://glome.me."
+
+#: templates/request_api_access.php:7
+msgid "Request API Credentials"
+msgstr "Request API Credentials"
+
+#: templates/scanner.php:13
+msgid "scanning"
+msgstr "scanning..."
+
+#: templates/settings.php:2
+msgid "Glome Settings"
+msgstr "Glome"
+
+#: templates/settings.php:17
+msgid "Glome API details"
+msgstr "API Access Details"
+
+#: templates/settings.php:22
+msgid "API base path"
+msgstr "API Base Path"
+
+#: templates/settings.php:32
+msgid "API UID"
+msgstr "API UID"
+
+#: templates/settings.php:42
+msgid "API Key"
+msgstr "API Key"
+
+#: templates/settings.php:52
+msgid "Plugin config"
+msgstr "Configuration"
+
+#: templates/settings.php:57
+msgid "Activity tracking"
+msgstr "Enable activity tracking to Glome"
+
+#: templates/settings.php:72
+msgid "Clone name"
+msgstr "Clone display name upon pairing"
+
+#: templates/settings.php:88 templates/user_preferences.php:22
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: templates/user_preferences.php:3
+msgid "User preferences"
+msgstr "Glome preferences"
+
+#: templates/user_preferences.php:11
+msgid "Allow tracking me"
+msgstr "Allow tracking me on this site"
+
+#~ msgid "API trial info"
+#~ msgstr ""
+#~ "By clicking the button below Glome will grant API credentials for your "
+#~ "site. Your site will be able to use basic Glome features."
+
+#~ msgid "API permanent info"
+#~ msgstr "Please find more information on Glome API plans at http://glome.me."
+
+#~ msgid "Glome settings"
+#~ msgstr "Glome Settings"
+
+#~ msgid "API expires at"
+#~ msgstr "Valid until"
+
+#~ msgid "Clone displayed name"
+#~ msgstr "Clone Name"
+
+#~ msgid "Tick to hide key widget for logged-in users"
+#~ msgstr "Tick to hide key widget for logged-in users"
+
+#~ msgid "Tick to hide one-time login widget for logged-in users"
+#~ msgstr "Tick to hide one-time login widget for logged-in users"
+
+#~ msgid "api ok"
+#~ msgstr "Request Completed"
+
+#~ msgid "api error"
+#~ msgstr "Request Failed"
+
+#~ msgid "api error code"
+#~ msgstr "Error code"
+
+#~ msgid "Glome API OK"
+#~ msgstr "Glome Action Completed"
+
+#~ msgid "Glome API Error"
+#~ msgstr "Glome Action Failed"
+
+#~ msgid "Glome give code title"
+#~ msgstr "Share pairing code"
+
+#~ msgid "Glome give code intro"
+#~ msgstr ""
+#~ "You can pair up multiple devices to this account. Open this site on any "
+#~ "of your devices and scan this code, or just open the link. Yes, you can "
+#~ "also give the code to someone else. There are no limits here!"
+
+#~ msgid "Glome receive code title"
+#~ msgstr "Accept pairing code"
+
+#~ msgid "Glome receive code intro"
+#~ msgstr ""
+#~ "This is the place where you can accept pairing codes. Click the button to "
+#~ "scan the QR code shown on the other device."
+
+#~ msgid "Take picture"
+#~ msgstr "Scan code"
+
+#~ msgid "Click to scan"
+#~ msgstr "Open Scanner"
+
+#~ msgid "Pair Info Code"
+#~ msgstr "Sync code used"
+
+#~ msgid "Pairing link and code"
+#~ msgstr "Pairing link and code"
+
+#~ msgid "Pair with other devices"
+#~ msgstr "Pair with other devices"
+
+#~ msgid "Tick to hide pairing widget for logged-in users"
+#~ msgstr "Tick to hide pairing widget for logged-in users"
+
+#~ msgid "Pair widget description"
+#~ msgstr "Pair widget description"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Glome One-time Login"
+#~ msgstr "Glome One-time Login"
+
+#~ msgid "Glome pair widget"
+#~ msgstr "Glome pair widget"
