@@ -1,0 +1,256 @@
+.hidden
+{
+  display: none !important;
+}
+
+.hint
+{
+  font-size: 9px;
+  font-style: italic;
+}
+
+h4.glomeid
+{
+  width: 85%;
+  word-wrap: break-word;
+}
+
+.api_access
+{
+  padding: 10px;
+  background-color: white;
+}
+
+.api_access .info,
+.api_access form
+{
+  padding: 10px;
+}
+
+.loading
+{
+  width: 120px;
+  height: 6px;
+  margin: 0.5em 0 0.5em 0;
+  background-repeat: no-repeat;
+  background-image: url('/wp-includes/js/thickbox/loadingAnimation.gif');
+  background-position: -3px -2px;
+}
+
+.feedback
+{
+  display: inline-block;
+  background-color: white;
+  padding: 0.5em 0.5em 0.5em 1em;
+  color: black;
+}
+.feedback h4
+{
+  margin: 0;
+}
+.feedback.ok
+{
+  border-left: 3px solid green;
+}
+.feedback.nok
+{
+  border-left: 3px solid red;
+}
+
+.key,
+.pairing
+{
+  margin: 0 0 1.5em 0;
+}
+
+.qrtext
+{
+  border: 0 none !important;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  background-color: transparent;
+  padding: 1em 0;
+}
+
+.qrcode
+{
+  width: 128px;
+  height: 128px;
+  margin: 0.5em 0 0.5em 0;
+  background-color: white;
+}
+
+.qrcode canvas
+{
+  padding: 4px;
+}
+
+.gnb
+{
+  height: 5px;
+  line-height: 5px;
+  vertical-align: top;
+  position: fixed;
+  z-index: 100000;
+  top: 0px;
+  left: 0px;
+  width: 5px;
+}
+.gnb.active
+{
+  background-color: lightgreen;
+}
+.gnb.unread
+{
+  background-color: yellow;
+}
+
+.share,
+.receive
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+
+#widget-area .share,
+#widget-area .receive
+{
+  width: 85%;
+}
+
+.share.link
+{
+  margin: 0 1em 0 0;
+}
+
+.share .url
+{
+  width: 95%;
+  color: black;
+  overflow: hidden;
+  font-size: 11px;
+  background-color: white;
+  border: 0;
+  text-align: center;
+  resize: none;
+  padding: 2px;
+  margin: 0 auto 1em auto;
+}
+
+@media (min-width: 1280px) {
+  .share .url
+  {
+    height: 2em;
+  }
+}
+@media (max-width: 660px) {
+  .share .url
+  {
+    height: 5em;
+  }
+}
+@media (max-width: 500px) {
+  .share .url
+  {
+    height: 7.5em;
+  }
+}
+@media (max-width: 330px) {
+  .share .url
+  {
+    height: 9em;
+  }
+}
+
+#widget-area .share .url
+{
+  height: 5em;
+}
+
+.share .qr
+{
+  margin: 0 0 1em 0;
+}
+
+.receive button,
+.devices button
+{
+  display: inline-block;
+  float: right;
+  border: 1px solid white;
+  text-align: center;
+  vertical-align: middle;
+}
+.devices button
+{
+  height: 2em;
+}
+
+.receive button:hover,
+.devices button:hover
+{
+  color: white;
+  background-color: darkgray;
+}
+
+.receive button:active,
+.devices button:active
+{
+  color: white;
+  background-color: lightred;
+}
+
+.receive button {
+  width: 120px;
+  float: none;
+}
+
+.receive .scanner
+{
+  padding: 1em 0 0 0;
+}
+
+.receive .scanner video,
+.receive .scanner canvas
+{
+  width: 250px;
+}
+
+.receive .scanner video
+{
+  margin: 0 1em 0 0;
+}
+
+.receive .scanner canvas
+{
+  display: none;
+}
+
+.devices .list
+{
+  width: 90%;
+  padding: 0.5em;
+  background-color: darkgray;
+}
+
+.devices .list .device {
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.devices .list .device:last-child {
+  border: none;
+}
+
+.devices .list .device .info {
+  width: 80%;
+  color: white;
+  display: inline-block;
+  margin: 0 1em 0.5em 0;
+  word-wrap: break-word;
+}
+
+.devices .list .device button {
+  width: 60px;
+}
